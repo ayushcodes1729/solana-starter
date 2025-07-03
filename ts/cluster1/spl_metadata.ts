@@ -4,7 +4,7 @@ import {
     createMetadataAccountV3, 
     CreateMetadataAccountV3InstructionAccounts, 
     CreateMetadataAccountV3InstructionArgs,
-    DataV2Args
+    DataV2Args,
 } from "@metaplex-foundation/mpl-token-metadata";
 import { createSignerFromKeypair, signerIdentity, publicKey } from "@metaplex-foundation/umi";
 import { bs58 } from "@coral-xyz/anchor/dist/cjs/utils/bytes";
